@@ -1,0 +1,40 @@
+﻿# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebook checkpoints & cache
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# Dataset and Large Files
+dataset/
+images/
+gray_images/
+*.zip
+*.tar.gz
+
+# Model weights and artifacts
+*.h5
+*.hdf5
+*.keras
+*.ckpt
+best_colorization_model.h5
+colorization_model.keras
+
+# IDE / OS specific files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
